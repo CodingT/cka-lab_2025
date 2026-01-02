@@ -1,4 +1,4 @@
-# CKA Practice (Simple Edition)
+# CKA Practice Lab
 
 CKA - Certified Kubernetes Administratior practice lab
 designed to run on Killercoda.com playground or local K8s cluster.
@@ -13,11 +13,11 @@ Every question lives in its directory:
 
 2. 'git clone'  this repo inside the CKA Playground. 
 
-3. cd cka-lab_2025 ; chmod -Rv +x */labSetUp.sh  
+3. cd cka-lab_2025 ; chmod -Rv +x */*.sh  
 
 4. Run `./scripts/run-question.sh q-1-` to apply the setup and print the question tasks, 
-or cd ~/cka-lab_2025/q-2-*/ and run ./labSetUp.sh  and  cat questions.txt  manually
+   OR cd ~/cka-lab_2025/q-2-*/  run ./labSetUp.sh  and  cat questions.txt  manually
 
-5. Work through the task, then consult `solutions.txt`.
+5. Work through the task, then check with `solutions.txt`.
 
 
