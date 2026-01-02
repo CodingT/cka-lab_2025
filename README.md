@@ -11,7 +11,7 @@ Every question lives in its directory:
 ## How to Use
 1. Login to Killercoda.com CKA playground or your K8s cluster.
 
-2. 'git clone git@github.com:CodingT/cka-lab_2025.git'  clone this repo inside the CKA Playground. 
+2. 'git clone https://github.com/CodingT/cka-lab_2025.git'  clone this repo inside the CKA Playground. 
 
 3. cd cka-lab_2025 ; chmod -Rv +x */*.sh  
 
