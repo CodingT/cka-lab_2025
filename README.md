@@ -11,12 +11,11 @@ Every question lives in its directory:
 ## How to Use
 1. Login to Killercoda.com CKA playground or your K8s cluster.
 
-2. 'git clone'  this repo inside the CKA Playground. 
+2. 'git clone git@github.com:CodingT/cka-lab_2025.git'  clone this repo inside the CKA Playground. 
 
 3. cd cka-lab_2025 ; chmod -Rv +x */*.sh  
 
-4. Run `./scripts/run-question.sh q-1-` to apply the setup and print the question tasks, 
-   OR cd ~/cka-lab_2025/q-2-*/  run ./labSetUp.sh  and  cat questions.txt  manually
+4. Run `./scripts/run-question.sh q-1-` to apply the setup and print the question tasks,<br> OR  cd ~/cka-lab_2025/q-2-*/  run ./labSetUp.sh  and  cat questions.txt  manually
 
 5. Work through the task, then check with `solutions.txt`.
 
