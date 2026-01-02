@@ -1,0 +1,6 @@
+# Add repo and template manifests (CRDs not installed)
+helm repo add argocd https://argoproj.github.io/argo-helm
+helm repo update
+helm template argocd argo/argo-cd --version 7.7.3 --set crds.install=false --namespace argocd > /root/argo-helm.yaml    #creates helm template 
+cat /root/argo-helm.yaml   # confirm output
+helm install argocd argo/argo-cd --version 7.7.3 crds.install=false --skip-crds --namespace=argocd    # install helm chart with parameters
